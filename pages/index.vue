@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
     <NuxtLayout>
-        <HeroContent />
+        <!-- <HeroContent /> -->
         <BadgesContent />
         <ServicesCard />
         <OurServices />
