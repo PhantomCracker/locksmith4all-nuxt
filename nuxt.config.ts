@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   modules: [
-    'usebootstrap'
+    'usebootstrap',
+    'nuxt-icon'
     ],
   usebootstrap: {
     bootstrap: {

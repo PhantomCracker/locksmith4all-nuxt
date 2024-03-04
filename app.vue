@@ -2,6 +2,6 @@
 import { NuxtLayout } from '#build/components';
 <template>
   <div>
-    <NuxtLayout />
+    <NuxtPage />
   </div>
 </template>
