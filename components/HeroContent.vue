@@ -14,7 +14,18 @@
             <li class="text-white text-start pl-2">24/7 Local Emergency</li>
             <li class="text-white text-start pl-2">Fully equipped locksmiths</li>
             <li class="text-white text-start pl-2">No Call Out Charge</li>
-            <li class="text-white text-start pl-2 pb-2">1 Year Warranty</li>
+            <li class="text-white text-start pl-2">1 Year Warranty</li>
+            <li class="text-white text-start pl-2">100% Satisfaction Guarantee</li>
+            <li class="text-white text-start pl-2">Local Locksmiths</li>
+            <li class="text-white text-start pl-2">Mobile service, we come to you</li>
+            <li class="text-white text-start pl-2">Licensed & insured professionals.</li>
+            <li class="text-white text-start pl-2">24/7 availability, for your peace of mind</li>
+            <li class="text-white text-start pl-2">Fast & efficient</li>
+            <li class="text-white text-start pl-2">Trustworthy</li>
+            <li class="text-white text-start pl-2">Reliable & Secure</li>
+            <li class="text-white text-start pl-2">Quick & Convenient</li>
+            <li class="text-white text-start pl-2 pb-2">Local expertise</li>
+            
           </ul>
           <button class="btn btn-primary w-100 my-primary-btn mt-1">
             <a class="text-white text-decoration-none" href="tel:01173256595">At your location within 25 minutes</a>
