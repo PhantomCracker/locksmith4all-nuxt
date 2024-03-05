@@ -35,6 +35,8 @@
 
   @media (max-width: 700px) {
     max-height: 100%;
+    display: none;
+    background-color: #000000;
   }
   .hero-man {
     background-image: url("@/assets/images/header-man.webp");
@@ -44,6 +46,8 @@
     min-height: 300px;
     @media (max-width: 700px) {
       border-top: 10px solid black;
+      display: none;
+      background-color: #000000;
     }
   }
   li {
