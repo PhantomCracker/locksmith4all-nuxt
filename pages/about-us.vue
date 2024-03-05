@@ -1,6 +1,8 @@
 <script setup></script>
 <template>
-    <h1>About us Page</h1>
+    <NuxtLayout>
+        <InfoSection />
+    </NuxtLayout>
 </template>
 <style>
 </style>
