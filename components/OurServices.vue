@@ -102,6 +102,11 @@
       .card-body {
         border-left: 10px solid red;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        button {
+          margin: 0 auto;
+        }
       }
       .card-title {
         border-bottom: 1px solid #ededed;
@@ -110,6 +115,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
+        min-height: 90px;
       }
       .card-text {
         ul {
