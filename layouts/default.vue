@@ -103,7 +103,7 @@ import { NuxtPage } from '#build/components';
       }
     }
     .hero-nav-phone {
-      background: red;
+      background: #B30000;
       border-radius: 10px;
       padding: 3px 12px;
     }

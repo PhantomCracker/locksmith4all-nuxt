@@ -71,7 +71,7 @@
 h1 {
   font-size: 2.5rem;
   &.with-border {
-    border-left: 10px solid red;
+    border-left: 10px solid #B30000;
     padding-left: 25px;
     @media (max-width: 700px) {
       font-size: 3.5rem;
@@ -79,7 +79,7 @@ h1 {
   }
 }
 .btn-primary {
-  background-color: red !important;
+  background-color: #B30000 !important;
   border: none;
   &:focus, :active, :target, :visited {
     border: none;

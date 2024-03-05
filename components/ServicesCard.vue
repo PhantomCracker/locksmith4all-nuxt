@@ -76,7 +76,7 @@
   }
   .card-title {
     font-size: 1.5rem;
-    color: red;
+    color: #B30000;
     position: relative;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;

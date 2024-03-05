@@ -92,7 +92,7 @@
       padding-right: 0;
     }
     .red-part {
-      background: red;
+      background: #B30000;
     }
     .card {
       border-radius: 0;
@@ -100,7 +100,7 @@
       border: none;
       border-bottom: 1px solid #ededed;
       .card-body {
-        border-left: 10px solid red;
+        border-left: 10px solid #B30000;
         padding: 0;
         display: flex;
         flex-direction: column;
@@ -136,7 +136,7 @@
       }
     }
     .btn-primary {
-      background-color: red !important;
+      background-color: #B30000 !important;
       border: none;
       border-radius: 0;
       &:focus, :active, :target, :visited {

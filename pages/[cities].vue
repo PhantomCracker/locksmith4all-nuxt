@@ -3,11 +3,11 @@ const route = useRoute();
 </script>
 
 <template>
-    <Html>
+    <Html lang="en">
         <Head>
-            <Title>Locksmith in {{ route.params.cities }}</Title>
-            <Meta name="description" :content="`24/7 emergency locksmith services in ${route.params.cities}. Locksmith4All also provide a range of services and supplies designed to improve the security of your home or business`" />
             <Link src="//scripts.iconnode.com/95446.js" />
+            <Meta name="description" :content="`24/7 emergency locksmith services in ${route.params.cities}. Locksmith4All also provide a range of services and supplies designed to improve the security of your home or business`" />
+            <Title>Locksmith in {{ route.params.cities }}</Title>
         </Head>
     </Html>
     <NuxtLayout>
@@ -66,7 +66,7 @@ const route = useRoute();
 h1 {
   font-size: 2.5rem;
   &.with-border {
-    border-left: 10px solid red;
+    border-left: 10px solid #B30000;
     padding-left: 25px;
     @media (max-width: 700px) {
       font-size: 3.5rem;
@@ -74,7 +74,7 @@ h1 {
   }
 }
 .btn-primary {
-  background-color: red !important;
+  background-color: #B30000 !important;
   border: none;
   &:focus, :active, :target, :visited {
     border: none;

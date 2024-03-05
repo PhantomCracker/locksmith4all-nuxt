@@ -261,7 +261,7 @@ const cities = [
       color: rgb(44, 44, 44);
     }
     &:hover {
-      color: red;
+      color: #B30000;
     }
   }
 }
@@ -270,16 +270,16 @@ ul {
   li {
     list-style-type: '✓';
     text-align: left;
-    color: red;
+    color: #B30000;
     padding-left: 10px;
   }
   &.cities li{
     list-style-type: circle;
-    color: red;
+    color: #B30000;
   }
 }
 .btn-primary {
-  background-color: red !important;
+  background-color: #B30000 !important;
   border: none;
   &:focus, :active, :target, :visited {
     border: none;
