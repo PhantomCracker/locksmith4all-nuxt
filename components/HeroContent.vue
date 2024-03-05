@@ -4,10 +4,24 @@
   <div class="hero">
     <div class="container">
       <div class="row d-flex flex-column-reverse flex-lg-row">
-        <div class="col-12 col-lg-6 d-flex hero-man"></div>
+        <!-- <div class="col-12 col-lg-6 d-flex hero-man"></div> -->
         <div class="col-12 col-lg-6 d-flex align-self-center flex-column mt-md-0 pb-3">
           <h1 class="text-white text-start"><span class="my-yellow">Local Locksmith</span> near me</h1>
           <ul class="with-border bg-black">
+            <li class="text-white text-start pl-2 pt-2">Service on spot within 25 minutes</li>
+            <li class="text-white text-start pl-2">Local service from £39</li>
+            <li class="text-white text-start pl-2">Locks from £25</li>
+            <li class="text-white text-start pl-2">24/7 Local Emergency</li>
+            <li class="text-white text-start pl-2">Fully equipped locksmiths</li>
+            <li class="text-white text-start pl-2">No Call Out Charge</li>
+            <li class="text-white text-start pl-2 pb-2">1 Year Warranty</li>
+            <li class="text-white text-start pl-2 pt-2">Service on spot within 25 minutes</li>
+            <li class="text-white text-start pl-2">Local service from £39</li>
+            <li class="text-white text-start pl-2">Locks from £25</li>
+            <li class="text-white text-start pl-2">24/7 Local Emergency</li>
+            <li class="text-white text-start pl-2">Fully equipped locksmiths</li>
+            <li class="text-white text-start pl-2">No Call Out Charge</li>
+            <li class="text-white text-start pl-2 pb-2">1 Year Warranty</li>
             <li class="text-white text-start pl-2 pt-2">Service on spot within 25 minutes</li>
             <li class="text-white text-start pl-2">Local service from £39</li>
             <li class="text-white text-start pl-2">Locks from £25</li>
@@ -35,7 +49,7 @@
 
   @media (max-width: 700px) {
     max-height: 100%;
-    display: none;
+    background-image: none;
     background-color: #000000;
   }
   .hero-man {
@@ -46,8 +60,9 @@
     min-height: 300px;
     @media (max-width: 700px) {
       border-top: 10px solid black;
-      display: none;
+      background-image: none;
       background-color: #000000;
+      display: none;
     }
   }
   li {
