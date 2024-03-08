@@ -27,6 +27,8 @@
                 <li class="text-white text-start pl-2">Reliable & Secure</li>
                 <li class="text-white text-start pl-2">Quick & Convenient</li>
                 <li class="text-white text-start pl-2 pb-2">Local expertise</li>
+                <li class="text-white text-start pl-2">Satisfaction guarantee</li>
+                <li class="text-white text-start pl-2 pb-2">Expert security consultationse</li>
               </ul>
             </div>
             
