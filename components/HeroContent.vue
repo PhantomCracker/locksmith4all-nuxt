@@ -6,7 +6,7 @@
       <div class="row d-flex flex-column-reverse flex-lg-row">
         <div class="col-12 col-lg-6 d-flex hero-man"></div>
         <div class="col-12 col-lg-6 d-flex align-self-center flex-column mt-md-0 pb-3">
-          <h1 class="text-white text-start"><span class="my-yellow">Local Locksmith</span> near me</h1>
+          <h3 class="text-white text-start"><span class="my-yellow">Local Locksmith</span> near me</h3>
           <ul class="with-border bg-black">
             <li class="text-white text-start pl-2 pt-2">Service on spot within 25 minutes</li>
             <li class="text-white text-start pl-2">Local service from £39</li>
@@ -26,9 +26,7 @@
                 <li class="text-white text-start pl-2">Trustworthy</li>
                 <li class="text-white text-start pl-2">Reliable & Secure</li>
                 <li class="text-white text-start pl-2">Quick & Convenient</li>
-                <li class="text-white text-start pl-2">Local expertise</li>
-                <li class="text-white text-start pl-2">Satisfaction guarantee</li>
-                <li class="text-white text-start pl-2 pb-2">Expert security consultationse</li>
+                <li class="text-white text-start pl-2 pb-2">Local expertise</li>
               </ul>
             </div>
             
