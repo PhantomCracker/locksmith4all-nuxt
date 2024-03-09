@@ -2,7 +2,7 @@
   <div class="info-section pt-4 pb-4">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-12 ps-3">
+        <div class="col-lg-6 col-12">
           <h2 class="text-start">Cheap locksmith near me available 24/7</h2>
           <p class="text-start pt-3">At UK Local Locksmith we are proud to be able to offer our customers exceptionally diverse range of professional locksmith services. Our mission is multifold, we can provide you with 24/7 locksmith services and also provide a range of services and supplies designed to improve the security of your home or business.</p>
           <p class="text-start pt-3">Our sales and service team bring a lifetime of security experience to the table and can show you how best to protect your family, your home, and your business in today's growing crime. Our highly skilled locally based locksmiths can provide you with both commercial and residential locksmith services.</p>
