@@ -5,17 +5,17 @@
     <div class="container">
       <div class="row">
         <div class="col-4">
-          <div class="nav-item badge">
+          <div class="badge">
             <img src="@/assets/images/badges/247-service-badge.webp" alt="badge1"/>
           </div>
         </div>
         <div class="col-4">
-          <div class="nav-item badge me-lg-5">
+          <div class="badge me-lg-5">
             <img src="@/assets/images/badges/toprated.webp" alt="badge2"/>
           </div>
         </div>
         <div class="col-4">
-          <div class="nav-item badge me-lg-5">
+          <div class="badge me-lg-5">
             <img src="@/assets/images/badges/warranty.webp" alt="badge3"/>
           </div>
         </div>
@@ -28,9 +28,6 @@
 .badges {
   background-color: rgb(44, 44, 44);
   border-bottom: solid 10px black;
-}
-
-.nav-item {
   img {
     width: 100px;
   }
