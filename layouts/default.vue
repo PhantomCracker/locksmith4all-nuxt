@@ -24,7 +24,7 @@ import { NuxtPage } from '#build/components';
       <div class="col-12 col-lg-6">
         <div class="navigation">
           <NuxtLink to="/">
-            <img src="@/assets/logo.webp" class="logo" alt="logo">
+            <NuxtImg src="/images/logo.webp" class="logo" alt="logo" />
           </NuxtLink>
         </div>
       </div>
@@ -49,7 +49,7 @@ import { NuxtPage } from '#build/components';
       <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6">
-              <NuxtLink to="/" class="brand"><img src="@/assets/logo.webp" alt="logo"></NuxtLink>
+              <NuxtLink to="/" class="brand"><NuxtImg src="/images/logo.webp" alt="logo" /></NuxtLink>
               <p>We provide the best quality locksmith services with multiple teams located near you, our services include business locksmith services, emergency locksmith services, 24-hour locksmith services, with us you’ll receive trusted locksmith services in the most urgent of manner.</p>
             </div>
             <div class="d-md-none"><hr/></div>
