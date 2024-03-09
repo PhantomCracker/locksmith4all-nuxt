@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 pt-5 pb-4">
-          <h2 class="text-center pt-2 pb-2" style="color: #B30000">Why to choose Local Locksmith 4 All</h2>
+          <h2 class="text-center" style="color: #B30000">Why to choose Local Locksmith 4 All</h2>
         </div>
       </div>
       <div class="row">
@@ -14,22 +14,22 @@
             <div class="card p-3 w-100 ms-lg-3 mt-3 mt-lg-0">
               <div class="card-body p-3">
                 <h2> 01 </h2>
-                <h3 class="card-title text-start pt-2"> Best customer experience</h3>
-                <p class="card-text pt-5 text-start">When you call, we will give you as much help and information as possible over the phone.</p>
+                <h3 class="card-title pt-2"> Best customer experience</h3>
+                <p class="card-text pt-5">When you call, we will give you as much help and information as possible over the phone.</p>
               </div>
             </div>
             <div class="card p-3 w-100 ms-lg-3 mt-3 mt-lg-0">
               <div class="card-body p-3">
                 <h2> 02 </h2>
-                <h3 class="card-title text-start pt-2"> Crafted by the best </h3>
-                <p class="card-text pt-5 text-start">We only use high-quality, branded locks and parts we've worked with for years and know are reliable.</p>
+                <h3 class="card-title pt-2"> Crafted by the best </h3>
+                <p class="card-text pt-5">We only use high-quality, branded locks and parts we've worked with for years and know are reliable.</p>
               </div>
             </div>
             <div class="card p-3 w-100 ms-lg-3 mt-3 mt-lg-0">
               <div class="card-body p-3">
                 <h2> 03 </h2>
-                <h3 class="card-title text-start pt-2"> Insurance Approved </h3>
-                <p class="card-text pt-5 text-start">Our 12-month Guarantee covers parts and workmanship on all our work. So, if anything goes wrong, we'll be back to sort it the same day you report it.</p>
+                <h3 class="card-title pt-2"> Insurance Approved </h3>
+                <p class="card-text pt-5">Our 12-month Guarantee covers parts and workmanship on all our work. So, if anything goes wrong, we'll be back to sort it the same day you report it.</p>
               </div>
             </div>
           </div>
@@ -53,8 +53,6 @@
         &:hover {
           background: -webkit-linear-gradient(top, #B30000 0%, #ff0078 100%),-webkit-linear-gradient(right, #B30000 0%, #ff0078 100%);
         }
-
-
         .card-text {
           color: #FFFFFF;
         }

@@ -17,7 +17,7 @@
                   <li>Security lock systems</li>
                 </ul>
               </div>
-              <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
+              <button class="btn btn-primary w-50 mt-3 mb-4">
                 <a class="text-white text-decoration-none" href="tel:01173256595"><Icon name="ph:phone-call" class="fa-phone" />Call now</a>
               </button>
             </div>
@@ -36,7 +36,7 @@
                   <li>Security lock systems</li>
                 </ul>
               </div>
-              <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
+              <button class="btn btn-primary w-50 mt-3 mb-4">
                 <a class="text-white text-decoration-none" href="tel:01173256595"><Icon name="ph:phone-call" class="fa-phone" />Call now</a>
               </button>
             </div>
@@ -55,7 +55,7 @@
                   <li>24/7 Emergency Service</li>
                 </ul>
               </div>
-              <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
+              <button class="btn btn-primary w-50 mt-3 mb-4">
                 <a class="text-white text-decoration-none" href="tel:01173256595"><Icon name="ph:phone-call" class="fa-phone" />Call now</a>
               </button>
             </div>
@@ -74,7 +74,7 @@
                   <li>24/7 Emergency Service</li>
                 </ul>
               </div>
-              <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
+              <button class="btn btn-primary w-50 mt-3 mb-4">
                 <a class="text-white text-decoration-none" href="tel:01173256595"><Icon name="ph:phone-call" class="fa-phone" />Call now</a>
               </button>
             </div>
@@ -90,9 +90,6 @@
     .col-12, .col-lg-3 {
       padding-left: 0;
       padding-right: 0;
-    }
-    .red-part {
-      background: #B30000;
     }
     .card {
       border-radius: 0;

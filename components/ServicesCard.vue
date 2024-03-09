@@ -4,26 +4,26 @@
   <div class="service-card d-block d-md-flex">
     <div class="card w-100">
       <div class="card-body p-3 card-1">
-        <h5 class="card-title text-start mt-lg-5 pt-4">Emergency locksmith</h5>
-        <p class="card-text pt-2 text-start">Our experienced team of locksmithing professionals can provide you with the best level of service required by your situation.</p>
+        <h5 class="card-title mt-lg-5 pt-4">Emergency locksmith</h5>
+        <p class="card-text pt-2">Our experienced team of locksmithing professionals can provide you with the best level of service required by your situation.</p>
       </div>
     </div>
     <div class="card w-100">
       <div class="card-body p-3 card-2">
-        <h5 class="card-title text-start mt-lg-5 pt-4">Lock change</h5>
-        <p class="card-text pt-2 text-start">We will provide you and your company with professional, prompt, efficient and competitive service.</p>
+        <h5 class="card-title mt-lg-5 pt-4">Lock change</h5>
+        <p class="card-text pt-2">We will provide you and your company with professional, prompt, efficient and competitive service.</p>
       </div>
     </div>
     <div class="card w-100">
       <div class="card-body p-3 card-3">
-        <h5 class="card-title text-start mt-lg-5 pt-4">Burglary Repair</h5>
-        <p class="card-text pt-2 text-start">Our team include the trained locksmiths experienced architectural hardware specialists & lock experts.</p>
+        <h5 class="card-title mt-lg-5 pt-4">Burglary Repair</h5>
+        <p class="card-text pt-2">Our team include the trained locksmiths experienced architectural hardware specialists & lock experts.</p>
       </div>
     </div>
     <div class="card w-100">
       <div class="card-body p-3 card-4">
-        <h5 class="card-title text-start mt-lg-5 pt-4">Residential / Comercial</h5>
-        <p class="card-text pt-2 text-start">We offering you comprehensive services to the industrial, commercial & residential sectors.</p>
+        <h5 class="card-title mt-lg-5 pt-4">Residential / Comercial</h5>
+        <p class="card-text pt-2">We offering you comprehensive services to the industrial, commercial & residential sectors.</p>
       </div>
     </div>
   </div>
