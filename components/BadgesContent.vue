@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-4">
           <div class="badge">
-            <img src="@/assets/images/badges/247-service-badge.webp" alt="badge1"/>
+            <NuxtImg src="@/assets/images/badges/247-service-badge.webp" />
           </div>
         </div>
         <div class="col-4">

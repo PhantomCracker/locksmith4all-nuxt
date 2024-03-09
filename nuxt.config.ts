@@ -2,7 +2,8 @@ export default defineNuxtConfig({
   modules: [
     'usebootstrap',
     'nuxt-icon',
-    '@zadigetvoltaire/nuxt-gtm'
+    '@zadigetvoltaire/nuxt-gtm',
+    '@nuxt/image'
     ],
   usebootstrap: {
     bootstrap: {
@@ -25,5 +26,8 @@ export default defineNuxtConfig({
     loadScript: true, // Whether or not to load the GTM Script (Helpful if you are including GTM manually, but need the dataLayer functionality in your components) (optional)
     enableRouterSync: true, // Pass the router instance of your app to automatically sync with router (optional)
     trackOnNextTick: false, // Whether or not call trackView in Vue.nextTick
+  },
+  image: {
+    provider: 'netlify',
   }
 })
