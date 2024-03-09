@@ -6,17 +6,17 @@
       <div class="row">
         <div class="col-4">
           <div class="badge">
-            <NuxtImg src="@/assets/images/badges/247-service-badge.webp" />
+            <NuxtImg src="/images/badges/247-service-badge.webp" alt="badge1"/>
           </div>
         </div>
         <div class="col-4">
           <div class="badge me-lg-5">
-            <img src="@/assets/images/badges/toprated.webp" alt="badge2"/>
+            <NuxtImg src="/images/badges/toprated.webp" alt="badge2"/>
           </div>
         </div>
         <div class="col-4">
           <div class="badge me-lg-5">
-            <img src="@/assets/images/badges/warranty.webp" alt="badge3"/>
+            <NuxtImg src="/images/badges/warranty.webp" alt="badge3"/>
           </div>
         </div>
       </div>
