@@ -22,7 +22,7 @@ export default {
 <style scoped lang="scss">
   .info-section {
     border-top: 5px solid black;
-    background-color: lightgray;
+    background-color: #ECECEC;
     .info-section-man {
       background: url('@/assets/images/infoSectionMan.webp');
       background-size: cover;

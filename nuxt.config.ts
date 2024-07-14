@@ -3,7 +3,8 @@ export default defineNuxtConfig({
     'usebootstrap',
     'nuxt-icon',
     '@zadigetvoltaire/nuxt-gtm',
-    '@nuxt/image'
+    '@nuxt/image',
+    'nuxt-swiper'
     ],
   usebootstrap: {
     bootstrap: {

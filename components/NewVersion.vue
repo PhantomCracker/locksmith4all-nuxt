@@ -108,6 +108,7 @@
     </div>
     <InfoSection />
     <TrustedSection />
+    <TestimonialsSection />
 </template>
 
 <style scoped lang="scss">
@@ -189,7 +190,7 @@
     justify-content: center;
 
     .card-background {
-        background-color: lightgray;
+        background-color: #ECECEC;
         width: 212px;
         height: 200px;
         padding: 0;
