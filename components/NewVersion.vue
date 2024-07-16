@@ -120,7 +120,7 @@
             <p>© 2024 Locksmith 4 All. All Rights Reserved.</p>
         </div>
         <div class="col-12 col-md-6">
-            <NuxtImg src="/images/badges/247-service-badge.webp" alt="badge1"/>
+            <NuxtImg src="/images/badges/247-service-badge.webp" class="service-badge" alt="badge1"/>
             <h6>BUSINESS HOURS</h6>
             <p>Our support available to help you 24 hours a day, seven days a week.</p>
             <ul>
@@ -313,6 +313,11 @@
         margin: 0 auto;
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+    .service-badge {
+        width: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 
