@@ -2,13 +2,13 @@
 
 <template>
     <div class="container-fluid p-0">
-        <div class="row navigation">
-            <div class="col-6">
+        <div class="row navigation pt-3 pb-3">
+            <div class="col-12 col-md-6">
                 <NuxtLink to="/">
                     <img src="@/assets/logo.webp" class="logo" alt="logo" />
                 </NuxtLink>
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-end">
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-end">
                 <a href="tel:01173256595" class="float-phone d-flex">
                     <Icon name="ph:phone-call" class="fa-phone " />
                     <div class="phone-text ps-3">
@@ -114,6 +114,9 @@
             <NuxtLink to="/">
                 <img src="@/assets/logo.webp" class="logo" alt="logo" />
             </NuxtLink>
+            <button class="call-now p-2">
+                CALL NOW 01173256595
+            </button>
             <p>© 2024 Locksmith 4 All. All Rights Reserved.</p>
         </div>
         <div class="col-12 col-md-6">
@@ -299,6 +302,23 @@
     h6 {
         color: #fff;
         font-weight: 600;
+    }
+    .call-now {
+        color: #fff;
+        background-color: #b30000;
+        width: 300px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 80%;
     }
 }
 </style>
