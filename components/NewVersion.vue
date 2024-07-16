@@ -109,6 +109,23 @@
     <InfoSection />
     <TrustedSection />
     <TestimonialsSection />
+    <div class="row footer">
+        <div class="col-12 col-md-6">
+            <NuxtLink to="/">
+                <img src="@/assets/logo.webp" class="logo" alt="logo" />
+            </NuxtLink>
+            <p>© 2024 Locksmith 4 All. All Rights Reserved.</p>
+        </div>
+        <div class="col-12 col-md-6">
+            <NuxtImg src="/images/badges/247-service-badge.webp" alt="badge1"/>
+            <h6>BUSINESS HOURS</h6>
+            <p>Our support available to help you 24 hours a day, seven days a week.</p>
+            <ul>
+                <li>OPEN 24h</li>
+                <li>7 DAYS a WEEK</li>
+            </ul>
+        </div>
+    </div>
 </template>
 
 <style scoped lang="scss">
@@ -270,6 +287,18 @@
         display: flex;
         justify-content: center;
         margin: 0 auto;
+    }
+}
+.footer {
+    background-color: rgba(179,0,0, 0.8);
+    padding: 2rem;
+
+    p, li {
+        color: #fff;
+    }
+    h6 {
+        color: #fff;
+        font-weight: 600;
     }
 }
 </style>
