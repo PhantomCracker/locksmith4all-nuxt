@@ -5,3 +5,9 @@ import { NuxtLayout } from '#build/components';
     <NuxtPage />
   </div>
 </template>
+
+<style>
+#__nuxt {
+  overflow: hidden;
+}
+</style>

@@ -3,12 +3,12 @@
 <template>
     <div class="container-fluid p-0">
         <div class="row navigation pt-3 pb-3">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-align-center">
                 <NuxtLink to="/">
                     <img src="@/assets/logo.webp" class="logo" alt="logo" />
                 </NuxtLink>
             </div>
-            <div class="col-12 col-md-6 d-flex align-items-center justify-content-end">
+            <div class="col-12 col-md-6 pt-4 pt-md-0 d-flex align-items-center justify-content-end">
                 <a href="tel:01173256595" class="float-phone d-flex">
                     <Icon name="ph:phone-call" class="fa-phone " />
                     <div class="phone-text ps-3">
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="row hero pt-5">
-            <div class="row">
+            <div class="row text-align-center hero-div-one">
                 <div class="col-12 col-md-8 p-5 ps-8">
                     <h1>FAST 20 MINUTE LOCKSMITHS, CALL 24/7</h1>
                     <h2 class="pt-3">Fast Emergency Locksmiths Near You. Call Now</h2>
@@ -60,22 +60,22 @@
             </div>
         </div>
         <div class="row services-cards pt-3">
-            <div class="col-3 card-background">
+            <div class="col-6 col-md-3 card-background">
                 <div class="card-1">
                     <h4>Emergency locksmith</h4>
                 </div>
             </div>
-            <div class="col-3 card-background">
+            <div class="col-6 col-md-3 card-background">
                 <div class="card-2">
                     <h4>Lock change</h4>
                 </div>
             </div>
-            <div class="col-3 card-background">
+            <div class="col-6 col-md-3 card-background">
                 <div class="card-3">
                     <h4>Burglary Repair</h4>
                 </div>
             </div>
-            <div class="col-3 card-background">
+            <div class="col-6 col-md-3 card-background">
                 <div class="card-4">
                     <h4>Residential / Comercial</h4>
                 </div>
@@ -177,8 +177,8 @@
     }
 
     .call-now {
-        color: #fff;
-        background-color: #b30000;
+        color: #000;
+        background-color: #f0a926;
         width: 150px;
         border-radius: 15px;
     }
@@ -283,8 +283,8 @@
         padding-right: 10px;
     }
     .call-now {
-        color: #fff;
-        background-color: #b30000;
+        color: #000;
+        background-color: #f0a926;
         width: 300px;
         border-radius: 15px;
         display: flex;
@@ -304,8 +304,8 @@
         font-weight: 600;
     }
     .call-now {
-        color: #fff;
-        background-color: #b30000;
+        color: #000;
+        background-color: #f0a926;
         width: 300px;
         border-radius: 15px;
         display: flex;
@@ -324,6 +324,41 @@
 @media only screen and (max-width: 600px) {
     .logo {
         width: 80%;
+    }
+    .text-align-center {
+        text-align: center;
+    }
+    .hero {
+        background-image: url("@/assets/images/header-man.webp");
+        background-size: contain;
+        background-color: rgba(179,0,0, 0.8);
+        .text-align-center {
+            padding: 15px;
+        }
+        .hero-div-one {
+            padding-right: 0;
+            :first-child {
+                h1, h2 {
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+    .services {
+        margin-top: -90px;
+    }
+    .services-cards {
+        .card-background {
+            margin-right: 0;
+            width: 190px;
+            margin-top: 10px;
+            .card-1, .card-2, .card-3, .card-4 {
+                width: 180px;
+            }
+        }
+        h4 {
+            width: 180px;
+        }
     }
 }
 </style>
