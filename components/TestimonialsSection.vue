@@ -53,7 +53,7 @@ const testimonialList = [
             </div>
             <Swiper
             :modules="[SwiperAutoplay, SwiperEffectCreative]"
-            :slides-per-view="2"
+            :slides-per-view="1"
             :loop="true"
             :autoplay="{
                 delay: 5000,
