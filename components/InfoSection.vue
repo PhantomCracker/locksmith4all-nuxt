@@ -42,4 +42,11 @@ export default {
       font-weight: 300;
     }
   }
+  @media only screen and (max-width: 600px) {
+    .info-section {
+      .text-start {
+        text-align: center !important;
+      }
+    }
+  }
 </style>

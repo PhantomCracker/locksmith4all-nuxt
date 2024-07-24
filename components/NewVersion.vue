@@ -21,8 +21,9 @@
         <div class="row hero pt-5">
             <div class="row text-align-center hero-div-one">
                 <div class="col-12 col-md-8 p-5 ps-8">
-                    <h1>FAST 20 MINUTE LOCKSMITHS, CALL 24/7</h1>
-                    <h2 class="pt-3">Fast Emergency Locksmiths Near You. Call Now</h2>
+                    <h1>EMERGENCY LOCKSMITHS, CALL 24/7</h1>
+                    <h2 class="pt-3">Fast Emergency Locksmiths Near You.</h2>
+                    <h2 class="pt-3">Service on spot within 20 minutes</h2>
                     <button class="call-now mt-5 p-2 mb-5">
                         CALL NOW <br> 01173256595
                     </button>
@@ -139,7 +140,7 @@
 
   .float-phone {
     text-decoration: none;
-    color: #b30000;
+    color: #FE5B5C;
     float: right;
   }
 
@@ -154,7 +155,7 @@
 
   .phone-number {
     font-size: 2rem;
-    color: #b30000;
+    color: #FE5B5C;
   }
 }
 
@@ -164,7 +165,7 @@
     background: #000;
     border-radius: 50px;
     padding: 12px;
-    border: 2px solid #b30000;
+    border: 2px solid #FE5B5C;
 }
 
 .hero {
@@ -177,8 +178,8 @@
     }
 
     .call-now {
-        color: #000;
-        background-color: #f0a926;
+        color: #fff;
+        background-color: #FE5B5C;
         width: 150px;
         border-radius: 15px;
     }
@@ -189,7 +190,7 @@
         .truck-icon, .best-choice-icon, .location-icon, .best-price-icon {
             width: 70px;
             height: 70px;
-            color: #fff;
+            color: #FE5B5C;
             padding-right: 10px;
         }
         .service-text {
@@ -218,7 +219,7 @@
         margin-right: 30px;
     }
     h4 {
-        background-color: #b30000;
+        background-color: #FE5B5C;
         color: #fff;
         font-size: 0.9rem;
         position: absolute;
@@ -279,12 +280,12 @@
     }
     ul li:before {
         content: '✓';
-        color: #b30000;
+        color: #FE5B5C;
         padding-right: 10px;
     }
     .call-now {
         color: #000;
-        background-color: #f0a926;
+        background-color: #FE5B5C;
         width: 300px;
         border-radius: 15px;
         display: flex;
@@ -293,7 +294,7 @@
     }
 }
 .footer {
-    background-color: rgba(179,0,0, 0.8);
+    background-color: rgba(254,91,92, 0.8);
     padding: 2rem;
 
     p, li {
@@ -305,7 +306,7 @@
     }
     .call-now {
         color: #000;
-        background-color: #f0a926;
+        background-color: #FE5B5C;
         width: 300px;
         border-radius: 15px;
         display: flex;
@@ -330,8 +331,9 @@
     }
     .hero {
         background-image: url("@/assets/images/header-man.webp");
-        background-size: contain;
-        background-color: rgba(179,0,0, 0.8);
+        background-size: inherit;
+        background-position: top;
+        background-color: #000;
         .text-align-center {
             padding: 15px;
         }
@@ -339,7 +341,7 @@
             padding-right: 0;
             :first-child {
                 h1, h2 {
-                    font-weight: 800;
+                    font-weight: 600;
                 }
             }
         }
@@ -359,6 +361,21 @@
         h4 {
             width: 180px;
         }
+    }
+    .card-background {
+        h4 {
+            background-color: #FE5B5C;
+            color: #fff;
+            font-size: 0.9rem;
+            position: relative;
+            text-align: center;
+            padding: 10px;
+            top: 95%;
+            transform: translateY(-100%);
+        }
+    }
+    .information {
+        text-align: center;
     }
 }
 </style>
