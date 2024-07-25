@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
-                    <Icon name="arcticons:bestprice" class="best-price-icon" />
+                    <Icon name="simple-icons:leaderprice" class="best-price-icon" />
                     <div class="service-text">
                         <h3>Best Prices</h3>
                         <p>Affordable Rates</p>
@@ -128,6 +128,13 @@
                 <li>OPEN 24h</li>
                 <li>7 DAYS a WEEK</li>
             </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button class="phone-call p-2">
+                CALL NOW 01173256595
+            </button>
         </div>
     </div>
 </template>
@@ -321,6 +328,19 @@
         padding-bottom: 15px;
     }
 }
+.phone-call {
+    display: none; 
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FE5B5C;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
 
 @media only screen and (max-width: 600px) {
     .logo {
@@ -342,6 +362,7 @@
             :first-child {
                 h1, h2 {
                     font-weight: 600;
+                    font-size: 1.6rem;
                 }
             }
         }
@@ -376,6 +397,24 @@
     }
     .information {
         text-align: center;
+    }
+    .footer {
+        text-align: center;
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+    }
+    .phone-call {
+        display: block;
+        color: #000;
+        background-color: #F7CE1F;
+        width: 300px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        z-index: 30;
     }
 }
 </style>

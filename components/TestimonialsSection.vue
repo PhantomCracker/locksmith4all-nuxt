@@ -56,7 +56,7 @@ const testimonialList = [
             :slides-per-view="1"
             :loop="true"
             :autoplay="{
-                delay: 5000,
+                delay: 500000,
                 disableOnInteraction: true,
             }"
             >
@@ -89,7 +89,6 @@ const testimonialList = [
 }
 
 .swiper-slide {
-    padding-right: 30px;
     width: 100px;
     figure {
         padding: 20px;
