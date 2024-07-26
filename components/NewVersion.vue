@@ -13,7 +13,7 @@
                     <Icon name="ph:phone-call" class="fa-phone " />
                     <div class="phone-text ps-3">
                         Call 24/7 Emergency Service
-                        <span class="phone-number">01173256595</span>
+                        <span class="phone-number">0117 325 6595</span>
                     </div>
                 </a>
             </div>
@@ -25,33 +25,33 @@
                     <h2 class="pt-3">Fast Emergency Locksmiths Near You.</h2>
                     <h2 class="pt-3">Service on spot within 20 minutes</h2>
                     <button class="call-now mt-5 p-2 mb-5">
-                        CALL NOW <br> 01173256595
+                        CALL NOW <br> 0117 325 6595
                     </button>
                 </div>
             </div>
             <div class="row services pt-4 pb-3">
-                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center service">
                     <Icon name="mdi:truck-fast-outline" class="truck-icon" />
                     <div class="service-text">
                         <h3>Fast response</h3>
                         <p>We arrive in 20 minutes</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center service">
                     <Icon name="material-symbols-light:editor-choice-outline-rounded" class="best-choice-icon" />
                     <div class="service-text">
                         <h3>Best Choice Guarantee</h3>
                         <p>CRB/DBS Checked</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center service">
                     <Icon name="hugeicons:location-05" class="location-icon" />
                     <div class="service-text">
                         <h3>No Call Out Fee</h3>
                         <p>No Charge To Come</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center service">
                     <Icon name="simple-icons:leaderprice" class="best-price-icon" />
                     <div class="service-text">
                         <h3>Best Prices</h3>
@@ -103,7 +103,7 @@
                 <li class="pb-2">Expert security consultationse</li>
             </ul>
             <button class="call-now p-2">
-                CALL NOW 01173256595
+                CALL NOW 0117 325 6595
             </button>
         </div>
     </div>
@@ -116,7 +116,7 @@
                 <img src="@/assets/logo.webp" class="logo" alt="logo" />
             </NuxtLink>
             <button class="call-now p-2">
-                CALL NOW 01173256595
+                CALL NOW 0117 325 6595
             </button>
             <p>© 2024 Locksmith 4 All. All Rights Reserved.</p>
         </div>
@@ -133,7 +133,7 @@
     <div class="row">
         <div class="col-12">
             <button class="phone-call p-2">
-                CALL NOW 01173256595
+                CALL NOW 0117 325 6595
             </button>
         </div>
     </div>
@@ -351,7 +351,7 @@
     }
     .hero {
         background-image: url("@/assets/images/header-man.webp");
-        background-size: inherit;
+        background-size: contain;
         background-position: top;
         background-color: #000;
         .text-align-center {
@@ -369,6 +369,12 @@
     }
     .services {
         margin-top: -90px;
+        padding-left: 0;
+        padding-right: 0;
+        .service {
+            padding-left: 100px;
+            justify-content: unset !important;
+        }
     }
     .services-cards {
         .card-background {

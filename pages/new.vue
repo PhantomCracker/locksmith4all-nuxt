@@ -1,11 +1,11 @@
 <script setup>
 useHead({
-    script: [
-      { 
-        src: "//s.ksrndkehqnwntyxlhgto.com/95446.js",
-        defer: true
-      }
-    ],
+    // script: [
+    //   { 
+    //     src: "//s.ksrndkehqnwntyxlhgto.com/95446.js",
+    //     defer: true
+    //   }
+    // ],
 });
 </script>
 
