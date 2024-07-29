@@ -366,13 +366,27 @@
                 }
             }
         }
+        h1 {
+            padding-bottom: 15px;
+        }
+        h2 {
+            font-weight: 400 !important;
+            font-size: 1.2rem !important;
+            padding-top: 0 !important;
+        }
+        > div > div {
+            padding-top: 0 !important;
+        }
+        button {
+            margin-top: 10px !important;
+        }
     }
     .services {
         margin-top: -90px;
         padding-left: 0;
         padding-right: 0;
         .service {
-            padding-left: 100px;
+            padding-left: 120px;
             justify-content: unset !important;
         }
     }
@@ -421,6 +435,12 @@
         justify-content: center;
         margin: 0 auto;
         z-index: 30;
+    }
+    .fa-phone {
+        display: none;
+    }
+    .float-phone {
+        margin: 0 auto;
     }
 }
 </style>
