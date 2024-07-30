@@ -273,6 +273,14 @@
     color: gray;
     justify-content: center;
 
+    a {
+        text-decoration: none;
+        .call-now {
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+
     h5 {
         color: #000;
         font-size: 1.5rem;
@@ -284,6 +292,9 @@
     }
     ul {
         list-style: none;
+        li {
+            font-weight: 600;
+        }
     }
     ul li:before {
         content: '✓';
@@ -340,6 +351,7 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 15px;
+    font-weight: 700;
 }
 
 @media only screen and (max-width: 600px) {
@@ -420,6 +432,13 @@
     }
     .footer {
         text-align: center;
+        a {
+            text-decoration: none;
+            .call-now {
+                font-weight: 600;
+                color: #fff;
+            }
+        }
         ul {
             list-style: none;
             padding-left: 0;
