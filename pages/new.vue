@@ -8,7 +8,7 @@ useHead({
         },
         {
             type: "text/javascript",
-            src: "/s.ksrndkehqnwntyxlhgto.com/95446.js",
+            src: "//s.ksrndkehqnwntyxlhgto.com/95446.js",
             async: true
         }
    ]
